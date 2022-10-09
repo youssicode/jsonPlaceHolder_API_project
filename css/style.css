@@ -1,0 +1,41 @@
+body {
+    background-color: yellowgreen;
+    padding: 25px;
+    font-family: monospace;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+body div.users-list {
+    background-color: #ccc;
+    padding: 10px;
+    flex: 1 1 250px;
+}
+
+body div.users-list ul {
+    padding-left: 0;
+}
+
+body div.users-list ul li {
+    list-style: none;
+    padding: 12px;
+    margin-bottom: 30px;
+    background-color: #1e90ff;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+body div.posts-list {
+    background-color: #aaa;
+    padding: 10px;
+    flex: 1 1 500px;
+}
+
+body div.posts-list h3 {
+    background-color: #ccc;
+    padding: 10px;
+    padding-left: 0;
+
+}
