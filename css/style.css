@@ -11,7 +11,7 @@ body {
 body div.users-list {
     background-color: #ccc;
     padding: 10px;
-    flex: 1 1 250px;
+    flex: 1 1 230px;
 }
 
 body div.users-list ul {
@@ -30,7 +30,7 @@ body div.users-list ul li {
 body div.posts-list {
     background-color: #aaa;
     padding: 10px;
-    flex: 1 1 500px;
+    flex: 5 1 400px;
 }
 
 body div.posts-list h3 {
