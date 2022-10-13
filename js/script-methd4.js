@@ -40,7 +40,7 @@ getData(userUrl).then(function (users) {
 })
     .then(function () {
         //* rendering posts related to a specific user by Fetching URL with parameter
-        //* it's very important to run the following after fetchUsers() function is executed => use promise
+        //* it's very important to run the following as a result of the promise (after the creation of "users List")
         const lIs = document.querySelectorAll('li.user-link')
         lIs.forEach(link => {
             link.addEventListener('click', function () {
